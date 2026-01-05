@@ -29,7 +29,7 @@ const App = () => {
       )
       setProducts(res.data.products)
     } catch {
-      alert('登入失敗，請確認帳密')
+      alert('取得產品資料失敗，請稍後再試')
     }
   }
 
